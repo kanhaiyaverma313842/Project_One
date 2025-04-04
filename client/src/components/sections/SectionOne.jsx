@@ -67,7 +67,7 @@ const SectionOne = () => {
 </div>
 
 
-  <div className="space-y-10 p-4 border border-black w-full flex-row md:flex-col  ">
+  <div className="space-y-10 p-4  w-full flex-row md:flex-col  ">
     {/* Row 1 */}
     {
       groupedInitiatives.map((item,index)=>

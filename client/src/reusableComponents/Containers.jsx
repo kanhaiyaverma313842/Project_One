@@ -1,6 +1,6 @@
 const OuterLayout = ({ children }) => {
     return (
-      <div className="px-[30px] border border-black md:px-[60px] py-[50px] md:py-[100px] flex flex-col gap-y-10 md:gap-y-20">
+      <div className="px-[30px] md:px-[60px] py-[50px] md:py-[100px] flex flex-col gap-y-10 md:gap-y-20">
         {children}
       </div>
     );
