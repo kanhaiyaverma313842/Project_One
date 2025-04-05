@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'dist', // <-- or just remove this line entirely
+    outDir: 'dist',
     assetsDir: 'assets',
     emptyOutDir: true,
   },
